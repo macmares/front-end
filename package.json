@@ -1,0 +1,32 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "Front End para el consumo de API en .NET (Cubo - MDX)",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./bin/www.js",
+    "start-dev": "DEBUG=front-end:* nodemon ./bin/www.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/macmares/front-end.git"
+  },
+  "author": "Mac Mares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macmares/front-end/issues"
+  },
+  "homepage": "https://github.com/macmares/front-end#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "audit": "0.0.6",
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "jshint": "^2.9.6",
+    "socket.io": "^2.1.1"
+  }
+}
